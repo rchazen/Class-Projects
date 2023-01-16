@@ -1,0 +1,77 @@
+body{
+
+    background: linear-gradient(to right, #B0DAB9, #DAD299); 
+}
+h1{
+    text-align: center;
+    color: white;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+    border: 1px solid;
+  
+}
+td{
+    padding: 2px;
+
+}
+.number_button{
+    background-color: rgb(121, 132, 255);
+    border-color: black;
+    width: 100%;
+
+}
+.number_button:hover {
+    background-color: #6a4caf; 
+    color: white;
+  }
+
+.operator{
+    background-color: rgb(119, 234, 119);
+    border-color: black;
+    width: 100%;
+
+
+}
+.operator:hover {
+    background-color: #4CAF50; 
+    color: white;
+  }
+.operator:focus {
+    background-color: #4CAF50; 
+    color: white;
+  }
+.clear{
+    background-color: rgb(255, 201, 119);
+    border-color: black;
+    width: 100%;
+
+
+}
+.clear:hover {
+    background-color: #ce7100; 
+    color: white;
+  }
+
+.equals{
+    background-color: rgb(255, 119, 119);
+    border-color: black;
+    width: 100%;
+
+
+}
+.equals:hover {
+    background-color: #ce0000; 
+    color: white;
+  }
+.display{
+    background-color: lightgoldenrodyellow;
+    border-color: black;
+    text-align: right;
+    
+    
+    
+
+}

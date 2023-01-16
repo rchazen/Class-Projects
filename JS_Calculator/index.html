@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator App</title>
+    </head>
+    <body>
+    <h1>Ryan's Calculator App</h1>
+
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" class="display" id="display" ></input></td>
+            <td><button class = "clear" onclick="clearClicked()">C</button></td>
+        </tr>
+        <tr>
+            <td><button  id= "number_button" class = "number_button" onclick="numClicked(1)">1</button></td>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(2)">2</button></td>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(3)">3</button></td>
+            <td><button class = "operator" onclick="operatorClicked('+')">+</button></td>
+        </tr>
+        <tr>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(4)">4</button></td>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(5)">5</button></td>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(6)">6</button></td>
+            <td><button class = "operator" onclick="operatorClicked('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(7)">7</button></td>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(8)">8</button></td>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(9)">9</button></td>
+            <td><button class = "operator" onclick="operatorClicked('*')"> *</button></td>
+        </tr>
+        <tr>
+            <td><button id= "number_button" class = "number_button" onclick="numClicked(0)">0</button></td>
+            <td><button class = "number_button" onclick="numClicked('.')" >.</button></td>
+            <td><button class = "equals" onclick="equalClicked()">=</button></td>
+            <td><button class = "operator"onclick="operatorClicked('/')">/</button></td>
+        </tr>
+       
+        <script src="myScript.js"></script>
+
+    </table>
+    </body>
+    </html>
